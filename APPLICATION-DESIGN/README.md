@@ -26,6 +26,10 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Getting started
 user login is test, no password required
 to see state management open the console in browser
+this demo is a merge attempt of 2 demo apps:
+- https://github.com/ngrx/platform
+- angular.io official documentation on NgModules's final version
+https://angular.io/generated/zips/ngmodule/ngmodule.zip
 
 
 ## UseFull Links
