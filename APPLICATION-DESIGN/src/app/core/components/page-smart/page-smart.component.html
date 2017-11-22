@@ -7,10 +7,13 @@
     <my-nav-item (navigate)="closeSidenav(2)" *ngIf="userIsLogged" routerLink="/turnarounds/list" icon="search" hint="Find your next book!">
       Turnarounds
     </my-nav-item>
-    <my-nav-item (navigate)="closeSidenav(2)" *ngIf="userIsLogged" routerLink="/turnarounds/1" icon="search" hint="Find your next book!">
+    <my-nav-item (navigate)="closeSidenav(3)" *ngIf="userIsLogged" routerLink="/turnarounds/1" icon="search" hint="Find your next book!">
       First Turnaround
     </my-nav-item>
-    <my-nav-item (navigate)="closeSidenav(3)" *ngIf="!(userIsLogged)">
+    <my-nav-item (navigate)="closeSidenav(4)" *ngIf="userIsLogged" routerLink="/users/users" icon="search" hint="Find your next book!">
+      Users
+    </my-nav-item>
+    <my-nav-item (navigate)="closeSidenav(5)" *ngIf="!(userIsLogged)">
       Sign In
     </my-nav-item>
     <my-nav-item (navigate)="logout()" *ngIf="userIsLogged">
