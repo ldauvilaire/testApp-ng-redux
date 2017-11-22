@@ -1,0 +1,9 @@
+<h3 highlight>FlightLeg Detail</h3>
+<div *ngIf="flightLeg">
+  <div>Id: {{flightLeg.id}}</div><br>
+  <label>Flight Number:
+    <input [(ngModel)]="flightLeg.flightNumber">
+  </label>
+</div>
+<br>
+<a routerLink="../">FlightLeg List</a>

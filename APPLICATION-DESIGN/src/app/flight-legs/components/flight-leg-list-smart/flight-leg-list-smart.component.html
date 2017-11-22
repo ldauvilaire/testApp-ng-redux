@@ -1,0 +1,5 @@
+<h3 highlight>FlightLeg List</h3>
+<div *ngFor='let flightLeg of flightLegs$ | async'>
+<!--<div *ngFor='let flightLeg of flightLegs'>-->
+  <a routerLink="{{flightLeg.id}}">{{flightLeg.id}} - {{flightLeg.flightNumber}}</a>
+</div>

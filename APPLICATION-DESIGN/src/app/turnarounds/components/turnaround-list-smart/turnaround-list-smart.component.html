@@ -1,0 +1,4 @@
+<h3 highlight>Turnaround List</h3>
+<div *ngFor='let turnaround of turnarounds | async'>
+  <a routerLink="{{'../' + turnaround.id}}">{{turnaround.id}} - {{turnaround.name}}</a>
+</div>
