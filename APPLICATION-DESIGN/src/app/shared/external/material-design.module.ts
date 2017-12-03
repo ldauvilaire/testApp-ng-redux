@@ -1,7 +1,9 @@
 
 import { NgModule } from '@angular/core';
-import {MatButtonModule, MatCheckboxModule, MatToolbarModule,
-  MatSidenavModule, MatListModule, MatIconModule, MatLineModule} from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatToolbarModule,
+  MatSidenavModule, MatListModule, MatIconModule, MatLineModule } from '@angular/material';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 const materials = [
   MatButtonModule,
@@ -10,7 +12,9 @@ const materials = [
   MatSidenavModule,
   MatListModule,
   MatIconModule,
-  MatLineModule
+  MatLineModule,
+  MatCardModule,
+  MatFormFieldModule
 ];
 
 @NgModule({

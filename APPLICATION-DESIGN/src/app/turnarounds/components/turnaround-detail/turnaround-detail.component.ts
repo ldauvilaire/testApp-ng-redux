@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'my-turnaround-detail',
+  selector: 'app-turnaround-detail',
   templateUrl: './turnaround-detail.component.html',
   styleUrls: ['./turnaround-detail.component.scss']
 })

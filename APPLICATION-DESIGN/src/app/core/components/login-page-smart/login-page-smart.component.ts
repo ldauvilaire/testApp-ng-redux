@@ -7,7 +7,7 @@ import { Authentication } from './../../model/authentication.model';
 import { ApplicationSandboxService } from './../../app-wide-services/application-sandbox.service';
 
 @Component({
-  selector: 'my-login-page-smart',
+  selector: 'app-login-page-smart',
   templateUrl: './login-page-smart.component.html',
   styleUrls: ['./login-page-smart.component.scss']
 })

@@ -13,7 +13,7 @@ import * as flightLegsState from './../../states/state-management';
 
 
 @Component({
-  selector: 'my-flight-leg-list-smart',
+  selector: 'app-flight-leg-list-smart',
   templateUrl: './flight-leg-list-smart.component.html',
   styleUrls: ['./flight-leg-list-smart.component.scss']
 })

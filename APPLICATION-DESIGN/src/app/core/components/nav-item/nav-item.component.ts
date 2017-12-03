@@ -1,7 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'my-nav-item',
+  selector: 'app-nav-item',
   templateUrl: './nav-item.component.html',
   styleUrls: ['./nav-item.component.scss']
 })

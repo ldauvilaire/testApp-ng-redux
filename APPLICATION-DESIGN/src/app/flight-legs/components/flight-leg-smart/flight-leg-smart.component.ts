@@ -6,7 +6,7 @@ import { UserService } from './../../../core/app-wide-services/user.service';
 import { FlightLegsRestService } from './../../services/flight-legs-rest.service';
 
 @Component({
-  selector: 'my-flight-leg-smart',
+  selector: 'app-flight-leg-smart',
   templateUrl: './flight-leg-smart.component.html',
   styleUrls: ['./flight-leg-smart.component.scss'],
   providers: [ FlightLegsRestService ]
