@@ -5,7 +5,7 @@ import { TurnaroundsRestService } from './../../services/turnarounds-rest.servic
 import { UserProfile } from './../../../shared/model/user-profile.model';
 
 @Component({
-  selector: 'my-turnaround-list-smart',
+  selector: 'app-turnaround-list-smart',
   templateUrl: './turnaround-list-smart.component.html',
   styleUrls: ['./turnaround-list-smart.component.scss']
 })

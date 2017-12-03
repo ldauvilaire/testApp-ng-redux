@@ -5,7 +5,7 @@ import { FlightLeg } from './../../model/flight-leg.model';
 import { FlightLegsRestService } from './../../services/flight-legs-rest.service';
 
 @Component({
-  selector: 'my-flight-leg-detail-smart',
+  selector: 'app-flight-leg-detail-smart',
   templateUrl: './flight-leg-detail-smart.component.html',
   styleUrls: ['./flight-leg-detail-smart.component.scss']
 })

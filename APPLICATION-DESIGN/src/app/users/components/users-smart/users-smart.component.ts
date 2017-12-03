@@ -15,7 +15,7 @@ import * as rootState from './../../../core/application-state-management/applica
 import * as usersState from './../../states/state-management';
 
 @Component({
-  selector: 'my-users-smart',
+  selector: 'app-users-smart',
   templateUrl: './users-smart.component.html',
   styleUrls: ['./users-smart.component.scss']
 })

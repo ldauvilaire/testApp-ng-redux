@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 
 import { StoreModule } from '@ngrx/store';
 
@@ -11,7 +11,7 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 
 /* App Component */
-import { AppComponent } from './shared/app/app.component';
+import { AppComponent } from './app.component';
 import { PageSmartComponent } from './core/components/page-smart/page-smart.component';
 import { LoginPageSmartComponent } from './core/components/login-page-smart/login-page-smart.component';
 
@@ -29,7 +29,7 @@ import { reducers, metaReducers } from './core/application-state-management/appl
     CommonModule,
     BrowserModule,
     BrowserAnimationsModule,
-    HttpModule,
+    HttpClientModule,
     /**
      * StoreModule.forRoot is imported once in the root module, accepting a reducer
      * function or object map of reducer functions. If passed an object of

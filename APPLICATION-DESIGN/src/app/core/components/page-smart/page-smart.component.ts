@@ -9,7 +9,7 @@ import { ApplicationSandboxService } from './../../app-wide-services/application
 import * as rootState from './../../application-state-management/application-state-management';
 
 @Component({
-  selector: 'my-page-smart',
+  selector: 'app-page-smart',
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './page-smart.component.html',
   styleUrls: ['./page-smart.component.scss']
@@ -43,7 +43,7 @@ export class PageSmartComponent implements OnInit {
     console.log('click ' + i);
     if (this.currentShowSideNav) {
       this.applicationSandbox.handleCloseSideNav();
-    }else {
+    } else {
       this.openSidenav();
     }
   }

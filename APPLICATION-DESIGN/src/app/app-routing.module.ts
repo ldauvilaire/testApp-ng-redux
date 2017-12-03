@@ -7,8 +7,8 @@ import { RootRouterPath } from './root-router-path.constants';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: RootRouterPath.FIGHTS, pathMatch: 'full', canActivate: [AuthGuard] },
-  { path: RootRouterPath.FIGHTS, loadChildren: 'app/flight-legs/flight-legs.module#FlightLegsModule', canActivate: [AuthGuard] },
+  { path: '', redirectTo: RootRouterPath.FLIGHTS, pathMatch: 'full', canActivate: [AuthGuard] },
+  { path: RootRouterPath.FLIGHTS, loadChildren: 'app/flight-legs/flight-legs.module#FlightLegsModule', canActivate: [AuthGuard] },
   { path: RootRouterPath.USERS, loadChildren: 'app/users/users.module#UsersModule', canActivate: [AuthGuard] },
   { path: RootRouterPath.TURNAROUNDS, loadChildren: 'app/turnarounds/turnarounds.module#TurnaroundsModule', canActivate: [AuthGuard] },
   { path: RootRouterPath.LOGIN, component: LoginPageSmartComponent },
